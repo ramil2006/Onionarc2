@@ -1,25 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lenova\\OneDrive\\Desktop\\Onionarc2\\",
+  "WorkspaceRootPath": "C:\\Users\\ramiler\\Desktop\\Onionarc2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A8BC3F1-4642-4288-9031-1FD11A8CF862}|OnionApi\\OnionApi.csproj|c:\\users\\lenova\\onedrive\\desktop\\onionarc2\\onionapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{4A8BC3F1-4642-4288-9031-1FD11A8CF862}|OnionApi\\OnionApi.csproj|c:\\users\\ramiler\\desktop\\onionarc2\\onionapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4A8BC3F1-4642-4288-9031-1FD11A8CF862}|OnionApi\\OnionApi.csproj|solutionrelative:onionapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8315D238-A22A-40DC-8589-6DCD7A9875F4}|Service\\Service.csproj|c:\\users\\lenova\\onedrive\\desktop\\onionarc2\\service\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4727EF4A-0236-4CB7-B8E8-BBAB5EC182F5}|Repository\\Repository.csproj|c:\\users\\ramiler\\desktop\\onionarc2\\repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4727EF4A-0236-4CB7-B8E8-BBAB5EC182F5}|Repository\\Repository.csproj|solutionrelative:repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8315D238-A22A-40DC-8589-6DCD7A9875F4}|Service\\Service.csproj|c:\\users\\ramiler\\desktop\\onionarc2\\service\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8315D238-A22A-40DC-8589-6DCD7A9875F4}|Service\\Service.csproj|solutionrelative:service\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8315D238-A22A-40DC-8589-6DCD7A9875F4}|Service\\Service.csproj|c:\\users\\lenova\\onedrive\\desktop\\onionarc2\\service\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8315D238-A22A-40DC-8589-6DCD7A9875F4}|Service\\Service.csproj|c:\\users\\ramiler\\desktop\\onionarc2\\service\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8315D238-A22A-40DC-8589-6DCD7A9875F4}|Service\\Service.csproj|solutionrelative:service\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A8BC3F1-4642-4288-9031-1FD11A8CF862}|OnionApi\\OnionApi.csproj|c:\\users\\lenova\\onedrive\\desktop\\onionarc2\\onionapi\\controllers\\ui\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A8BC3F1-4642-4288-9031-1FD11A8CF862}|OnionApi\\OnionApi.csproj|c:\\users\\ramiler\\desktop\\onionarc2\\onionapi\\controllers\\ui\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A8BC3F1-4642-4288-9031-1FD11A8CF862}|OnionApi\\OnionApi.csproj|solutionrelative:onionapi\\controllers\\ui\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A8BC3F1-4642-4288-9031-1FD11A8CF862}|OnionApi\\OnionApi.csproj|c:\\users\\lenova\\onedrive\\desktop\\onionarc2\\onionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A8BC3F1-4642-4288-9031-1FD11A8CF862}|OnionApi\\OnionApi.csproj|c:\\users\\ramiler\\desktop\\onionarc2\\onionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A8BC3F1-4642-4288-9031-1FD11A8CF862}|OnionApi\\OnionApi.csproj|solutionrelative:onionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,28 +34,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IAccountService.cs",
-              "DocumentMoniker": "C:\\Users\\lenova\\OneDrive\\Desktop\\Onionarc2\\Service\\Services\\Interfaces\\IAccountService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Interfaces\\IAccountService.cs",
-              "ToolTip": "C:\\Users\\lenova\\OneDrive\\Desktop\\Onionarc2\\Service\\Services\\Interfaces\\IAccountService.cs",
-              "RelativeToolTip": "Service\\Services\\Interfaces\\IAccountService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T11:49:48.626Z",
+              "Title": "Repository",
+              "DocumentMoniker": "C:\\Users\\ramiler\\Desktop\\Onionarc2\\Repository\\Repository.csproj",
+              "RelativeDocumentMoniker": "Repository\\Repository.csproj",
+              "ToolTip": "C:\\Users\\ramiler\\Desktop\\Onionarc2\\Repository\\Repository.csproj",
+              "RelativeToolTip": "Repository\\Repository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-04T06:51:53.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\ramiler\\Desktop\\Onionarc2\\Service\\Services\\Interfaces\\IAccountService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Interfaces\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\ramiler\\Desktop\\Onionarc2\\Service\\Services\\Interfaces\\IAccountService.cs",
+              "RelativeToolTip": "Service\\Services\\Interfaces\\IAccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T11:49:48.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lenova\\OneDrive\\Desktop\\Onionarc2\\OnionApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ramiler\\Desktop\\Onionarc2\\OnionApi\\Program.cs",
               "RelativeDocumentMoniker": "OnionApi\\Program.cs",
-              "ToolTip": "C:\\Users\\lenova\\OneDrive\\Desktop\\Onionarc2\\OnionApi\\Program.cs",
+              "ToolTip": "C:\\Users\\ramiler\\Desktop\\Onionarc2\\OnionApi\\Program.cs",
               "RelativeToolTip": "OnionApi\\Program.cs",
               "ViewState": "AgIAABIAAAAAAAAAAADwvyYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,11 +75,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\lenova\\OneDrive\\Desktop\\Onionarc2\\Service\\Services\\AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\ramiler\\Desktop\\Onionarc2\\Service\\Services\\AccountService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\AccountService.cs",
-              "ToolTip": "C:\\Users\\lenova\\OneDrive\\Desktop\\Onionarc2\\Service\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\ramiler\\Desktop\\Onionarc2\\Service\\Services\\AccountService.cs",
               "RelativeToolTip": "Service\\Services\\AccountService.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAswB4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -71,11 +87,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\lenova\\OneDrive\\Desktop\\Onionarc2\\OnionApi\\Controllers\\UI\\AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ramiler\\Desktop\\Onionarc2\\OnionApi\\Controllers\\UI\\AccountController.cs",
               "RelativeDocumentMoniker": "OnionApi\\Controllers\\UI\\AccountController.cs",
-              "ToolTip": "C:\\Users\\lenova\\OneDrive\\Desktop\\Onionarc2\\OnionApi\\Controllers\\UI\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ramiler\\Desktop\\Onionarc2\\OnionApi\\Controllers\\UI\\AccountController.cs",
               "RelativeToolTip": "OnionApi\\Controllers\\UI\\AccountController.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAAAEYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -85,11 +101,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\lenova\\OneDrive\\Desktop\\Onionarc2\\OnionApi\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ramiler\\Desktop\\Onionarc2\\OnionApi\\appsettings.Development.json",
               "RelativeDocumentMoniker": "OnionApi\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\lenova\\OneDrive\\Desktop\\Onionarc2\\OnionApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ramiler\\Desktop\\Onionarc2\\OnionApi\\appsettings.Development.json",
               "RelativeToolTip": "OnionApi\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABBAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-04T05:14:32.524Z",
               "EditorCaption": ""

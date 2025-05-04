@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnionApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28d828963d90b38a492080e5038df67aaa1e4c10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64562b9008654cf8d72e5c4f25ee7b971cf7acf1")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnionApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnionApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
