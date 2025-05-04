@@ -1,0 +1,1582 @@
+2025-04-27 12:51:58.317 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-27 12:51:58.348 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-27 12:51:58.349 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-27 12:51:58.350 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-27 12:51:58.358 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-04-27 12:51:58.365 +04:00 [INF] Applying migration '20250427085148_UsersModelAdded'.
+2025-04-27 12:51:58.406 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2025-04-27 12:51:58.407 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [FullName] nvarchar(max) NOT NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+2025-04-27 12:51:58.410 +04:00 [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Educations] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Educations] PRIMARY KEY ([Id])
+);
+2025-04-27 12:53:14.658 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-27 12:53:14.688 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-27 12:53:14.689 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-27 12:53:14.689 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-27 12:53:14.696 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-04-27 12:53:14.702 +04:00 [INF] Applying migration '20250427085148_UsersModelAdded'.
+2025-04-27 12:53:14.742 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2025-04-27 12:53:14.743 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [FullName] nvarchar(max) NOT NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+2025-04-27 12:53:14.746 +04:00 [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Educations] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Educations] PRIMARY KEY ([Id])
+);
+2025-04-27 12:54:13.252 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-27 12:54:13.282 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-27 12:54:13.283 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-27 12:54:13.283 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-27 12:54:13.289 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-04-27 12:54:13.296 +04:00 [INF] Applying migration '20250427085148_UsersModelAdded'.
+2025-04-27 12:54:13.335 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2025-04-27 12:54:13.336 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [FullName] nvarchar(max) NOT NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+2025-04-27 12:54:13.339 +04:00 [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Educations] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Educations] PRIMARY KEY ([Id])
+);
+2025-04-27 12:56:02.552 +04:00 [INF] Executed DbCommand (96ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Onion-App-Api];
+2025-04-27 12:56:02.601 +04:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Onion-App-Api] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-04-27 12:56:02.610 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-27 12:56:02.641 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2025-04-27 12:56:02.641 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-27 12:56:02.649 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-27 12:56:02.654 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-04-27 12:56:02.661 +04:00 [INF] Applying migration '20250427085148_UsersModelAdded'.
+2025-04-27 12:56:02.691 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2025-04-27 12:56:02.692 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [FullName] nvarchar(max) NOT NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+2025-04-27 12:56:02.693 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Educations] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Educations] PRIMARY KEY ([Id])
+);
+2025-04-27 12:56:02.694 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Rooms] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Rooms] PRIMARY KEY ([Id])
+);
+2025-04-27 12:56:02.694 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Teachers] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Surname] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Teachers] PRIMARY KEY ([Id])
+);
+2025-04-27 12:56:02.695 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+2025-04-27 12:56:02.696 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2025-04-27 12:56:02.697 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2025-04-27 12:56:03.092 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] nvarchar(450) NOT NULL,
+    [RoleId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2025-04-27 12:56:03.093 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] nvarchar(450) NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2025-04-27 12:56:03.094 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Groups] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [EducationId] int NOT NULL,
+    [RoomId] int NOT NULL,
+    [TeacherId] int NOT NULL,
+    CONSTRAINT [PK_Groups] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Groups_Educations_EducationId] FOREIGN KEY ([EducationId]) REFERENCES [Educations] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Groups_Rooms_RoomId] FOREIGN KEY ([RoomId]) REFERENCES [Rooms] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Groups_Teachers_TeacherId] FOREIGN KEY ([TeacherId]) REFERENCES [Teachers] ([Id]) ON DELETE CASCADE
+);
+2025-04-27 12:56:03.095 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Students] (
+    [Id] int NOT NULL IDENTITY,
+    [FullName] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Age] int NOT NULL,
+    [Image] nvarchar(max) NOT NULL,
+    [GroupId] int NOT NULL,
+    CONSTRAINT [PK_Students] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Students_Groups_GroupId] FOREIGN KEY ([GroupId]) REFERENCES [Groups] ([Id]) ON DELETE CASCADE
+);
+2025-04-27 12:56:03.096 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+2025-04-27 12:56:03.096 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+2025-04-27 12:56:03.096 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+2025-04-27 12:56:03.097 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+2025-04-27 12:56:03.098 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+2025-04-27 12:56:03.098 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+2025-04-27 12:56:03.098 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+2025-04-27 12:56:03.099 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Groups_EducationId] ON [Groups] ([EducationId]);
+2025-04-27 12:56:04.456 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Groups_RoomId] ON [Groups] ([RoomId]);
+2025-04-27 12:56:04.457 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Groups_TeacherId] ON [Groups] ([TeacherId]);
+2025-04-27 12:56:04.457 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Students_GroupId] ON [Students] ([GroupId]);
+2025-04-27 12:56:04.459 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250427085148_UsersModelAdded', N'8.0.15');
+2025-04-27 12:56:04.463 +04:00 [INF] Applying migration '20250427085306_UsersModelAdded2'.
+2025-04-27 12:56:04.476 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250427085306_UsersModelAdded2', N'8.0.15');
+2025-04-27 12:56:04.477 +04:00 [INF] Applying migration '20250427085557_creation'.
+2025-04-27 12:56:04.488 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250427085557_creation', N'8.0.15');
+2025-04-27 12:56:21.501 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 12:56:21.531 +04:00 [INF] Creating key {15ddabd1-6836-4d6f-992a-a933238c120c} with creation date 2025-04-27 08:56:21Z, activation date 2025-04-27 08:56:21Z, and expiration date 2025-07-26 08:56:21Z.
+2025-04-27 12:56:21.545 +04:00 [INF] Writing data to file 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys\key-15ddabd1-6836-4d6f-992a-a933238c120c.xml'.
+2025-04-27 12:56:21.612 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 12:56:21.613 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 12:56:21.638 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 12:56:21.639 +04:00 [INF] Hosting environment: Development
+2025-04-27 12:56:21.639 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 12:56:22.418 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger - null null
+2025-04-27 12:56:22.504 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger - 301 0 null 86.3742ms
+2025-04-27 12:56:22.508 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 12:56:22.542 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 34.4957ms
+2025-04-27 12:56:22.546 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/swagger-ui-bundle.js - null null
+2025-04-27 12:56:22.546 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/swagger-ui.css - null null
+2025-04-27 12:56:22.546 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-27 12:56:22.546 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 12:56:22.555 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 8.8816ms
+2025-04-27 12:56:22.558 +04:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-27 12:56:22.558 +04:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-27 12:56:22.560 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/swagger-ui.css - 200 152034 text/css 13.921ms
+2025-04-27 12:56:22.560 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 13.9874ms
+2025-04-27 12:56:22.567 +04:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-27 12:56:22.568 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 22.2036ms
+2025-04-27 12:56:22.587 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 12:56:22.901 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 314.0152ms
+2025-04-27 12:56:22.939 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 12:56:22.953 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.6029ms
+2025-04-27 12:57:59.159 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 12:57:59.235 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 12:57:59.235 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 12:57:59.259 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 12:57:59.259 +04:00 [INF] Hosting environment: Development
+2025-04-27 12:57:59.260 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 12:57:59.383 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 12:57:59.462 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 79.6431ms
+2025-04-27 12:57:59.473 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 12:57:59.473 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 12:57:59.477 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 3.6391ms
+2025-04-27 12:57:59.489 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.7844ms
+2025-04-27 12:57:59.537 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 12:57:59.548 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.5588ms
+2025-04-27 12:58:10.841 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - null null
+2025-04-27 12:58:10.848 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 12:58:10.858 +04:00 [INF] Route matched with {action = "GetRolesWithUsers", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRolesWithUsers() on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 12:58:10.861 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi) in 0.9447ms
+2025-04-27 12:58:10.862 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 12:58:10.864 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Service.Services.Interfaces.IAccountService' while attempting to activate 'OnionApi.Controllers.Admin.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-27 12:58:10.873 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - 409 null application/json; charset=utf-8 32.1312ms
+2025-04-27 12:58:58.152 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 12:58:58.225 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 12:58:58.226 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 12:58:58.248 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 12:58:58.249 +04:00 [INF] Hosting environment: Development
+2025-04-27 12:58:58.249 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 12:58:58.381 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 12:58:58.463 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 82.6537ms
+2025-04-27 12:58:58.471 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 12:58:58.471 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 12:58:58.474 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 2.8752ms
+2025-04-27 12:58:58.486 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.1525ms
+2025-04-27 12:58:58.536 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 12:58:58.548 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.7761ms
+2025-04-27 12:58:58.962 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 12:58:58.968 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 5.9702ms
+2025-04-27 12:58:58.980 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 12:58:58.980 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 12:58:58.983 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 3.152ms
+2025-04-27 12:58:58.987 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.3407ms
+2025-04-27 12:58:59.008 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 12:58:59.016 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.5996ms
+2025-04-27 12:59:02.311 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/api/admin/Account/GetUsers - null null
+2025-04-27 12:59:02.315 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.GetUsers (OnionApi)'
+2025-04-27 12:59:02.323 +04:00 [INF] Route matched with {action = "GetUsers", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUsers() on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 12:59:02.934 +04:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+2025-04-27 12:59:02.949 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Service.DTOs.Account.UserDto, Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-27 12:59:02.954 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.GetUsers (OnionApi) in 628.1521ms
+2025-04-27 12:59:02.955 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.GetUsers (OnionApi)'
+2025-04-27 12:59:02.959 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/api/admin/Account/GetUsers - 200 null application/json; charset=utf-8 647.9679ms
+2025-04-27 12:59:14.185 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7277/api/admin/Account/CreateRole - null 0
+2025-04-27 12:59:14.189 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.CreateRole (OnionApi)'
+2025-04-27 12:59:14.192 +04:00 [INF] Route matched with {action = "CreateRole", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateRole() on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 12:59:14.282 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-27 12:59:14.288 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-27 12:59:14.359 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);
+2025-04-27 12:59:14.371 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-27 12:59:14.373 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-27 12:59:14.377 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);
+2025-04-27 12:59:14.378 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-27 12:59:14.380 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-27 12:59:14.381 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);
+2025-04-27 12:59:14.384 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-04-27 12:59:14.385 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.CreateRole (OnionApi) in 191.5601ms
+2025-04-27 12:59:14.385 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.CreateRole (OnionApi)'
+2025-04-27 12:59:14.386 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7277/api/admin/Account/CreateRole - 200 0 null 200.6492ms
+2025-04-27 12:59:21.548 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - null null
+2025-04-27 12:59:21.550 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 12:59:21.553 +04:00 [INF] Route matched with {action = "GetRolesWithUsers", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRolesWithUsers() on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 12:59:21.571 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+2025-04-27 12:59:21.583 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 12:59:21.609 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 12:59:21.612 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 12:59:21.614 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 12:59:21.615 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 12:59:21.617 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 12:59:21.618 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Service.DTOs.Account.RoleDto, Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-27 12:59:21.620 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi) in 65.9111ms
+2025-04-27 12:59:21.621 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 12:59:21.622 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - 200 null application/json; charset=utf-8 73.2972ms
+2025-04-27 13:25:08.954 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:25:08.960 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 5.4633ms
+2025-04-27 13:25:08.972 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:25:08.972 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:25:08.975 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 3.0006ms
+2025-04-27 13:25:08.977 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 4.4991ms
+2025-04-27 13:25:09.106 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:25:09.117 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.0081ms
+2025-04-27 13:25:12.928 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 13:25:13.003 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 13:25:13.004 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 13:25:13.026 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 13:25:13.027 +04:00 [INF] Hosting environment: Development
+2025-04-27 13:25:13.028 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 13:25:13.471 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:25:13.554 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 83.6227ms
+2025-04-27 13:25:13.599 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:25:13.599 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:25:13.602 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 3.0016ms
+2025-04-27 13:25:13.615 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.0193ms
+2025-04-27 13:25:13.632 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:25:13.649 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.3849ms
+2025-04-27 13:26:09.044 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7277/api/Account/Register - application/json 114
+2025-04-27 13:26:09.050 +04:00 [INF] Executing endpoint 'StudentApp_API.Controllers.UI.AccountController.Register (OnionApi)'
+2025-04-27 13:26:09.060 +04:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Service.DTOs.Account.RegisterDto) on controller StudentApp_API.Controllers.UI.AccountController (OnionApi).
+2025-04-27 13:26:09.782 +04:00 [INF] Executed DbCommand (20ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-04-27 13:26:09.886 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [FullName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+2025-04-27 13:26:09.901 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:26:09.931 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1
+2025-04-27 13:26:09.935 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:26:09.947 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-04-27 13:26:09.972 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450), @p17='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p18='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTimeOffset), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [FullName] = @p6, [LockoutEnabled] = @p7, [LockoutEnd] = @p8, [NormalizedEmail] = @p9, [NormalizedUserName] = @p10, [PasswordHash] = @p11, [PhoneNumber] = @p12, [PhoneNumberConfirmed] = @p13, [SecurityStamp] = @p14, [TwoFactorEnabled] = @p15, [UserName] = @p16
+OUTPUT 1
+WHERE [Id] = @p17 AND [ConcurrencyStamp] = @p18;
+2025-04-27 13:26:09.983 +04:00 [INF] Executing OkObjectResult, writing value of type 'Service.Helpers.Responses.RegisterResponse'.
+2025-04-27 13:26:09.987 +04:00 [INF] Executed action StudentApp_API.Controllers.UI.AccountController.Register (OnionApi) in 923.9006ms
+2025-04-27 13:26:09.988 +04:00 [INF] Executed endpoint 'StudentApp_API.Controllers.UI.AccountController.Register (OnionApi)'
+2025-04-27 13:26:09.992 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7277/api/Account/Register - 200 null application/json; charset=utf-8 948.7315ms
+2025-04-27 13:26:32.626 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - null null
+2025-04-27 13:26:32.629 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 13:26:32.634 +04:00 [INF] Route matched with {action = "GetRolesWithUsers", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRolesWithUsers() on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:26:32.671 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+2025-04-27 13:26:32.677 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:26:32.701 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:26:32.705 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:26:32.707 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:26:32.708 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:26:32.711 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:26:32.713 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Service.DTOs.Account.RoleDto, Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-27 13:26:32.715 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi) in 80.4848ms
+2025-04-27 13:26:32.717 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 13:26:32.717 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - 200 null application/json; charset=utf-8 91.0707ms
+2025-04-27 13:27:27.728 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 13:27:27.800 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 13:27:27.801 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 13:27:27.824 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 13:27:27.824 +04:00 [INF] Hosting environment: Development
+2025-04-27 13:27:27.825 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 13:27:28.167 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:27:28.247 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 80.2241ms
+2025-04-27 13:27:28.254 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:27:28.254 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:27:28.258 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 4.531ms
+2025-04-27 13:27:28.268 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.7286ms
+2025-04-27 13:27:28.334 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:27:28.348 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.5917ms
+2025-04-27 13:27:55.519 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7277/api/Account/Register - application/json 116
+2025-04-27 13:27:55.526 +04:00 [INF] Executing endpoint 'StudentApp_API.Controllers.UI.AccountController.Register (OnionApi)'
+2025-04-27 13:27:55.537 +04:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Service.DTOs.Account.RegisterDto) on controller StudentApp_API.Controllers.UI.AccountController (OnionApi).
+2025-04-27 13:27:56.263 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-04-27 13:27:56.370 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [FullName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+2025-04-27 13:27:56.389 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:27:56.417 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1
+2025-04-27 13:27:56.422 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:27:56.430 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-04-27 13:27:56.453 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450), @p17='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p18='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTimeOffset), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [FullName] = @p6, [LockoutEnabled] = @p7, [LockoutEnd] = @p8, [NormalizedEmail] = @p9, [NormalizedUserName] = @p10, [PasswordHash] = @p11, [PhoneNumber] = @p12, [PhoneNumberConfirmed] = @p13, [SecurityStamp] = @p14, [TwoFactorEnabled] = @p15, [UserName] = @p16
+OUTPUT 1
+WHERE [Id] = @p17 AND [ConcurrencyStamp] = @p18;
+2025-04-27 13:27:56.463 +04:00 [INF] Executing OkObjectResult, writing value of type 'Service.Helpers.Responses.RegisterResponse'.
+2025-04-27 13:27:56.467 +04:00 [INF] Executed action StudentApp_API.Controllers.UI.AccountController.Register (OnionApi) in 927.7715ms
+2025-04-27 13:27:56.468 +04:00 [INF] Executed endpoint 'StudentApp_API.Controllers.UI.AccountController.Register (OnionApi)'
+2025-04-27 13:27:56.472 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7277/api/Account/Register - 200 null application/json; charset=utf-8 953.4572ms
+2025-04-27 13:28:03.169 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - null null
+2025-04-27 13:28:03.172 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 13:28:03.175 +04:00 [INF] Route matched with {action = "GetRolesWithUsers", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRolesWithUsers() on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:28:03.211 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+2025-04-27 13:28:03.215 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:28:03.237 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:28:03.240 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:28:03.242 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:28:03.244 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:28:03.245 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:28:03.247 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Service.DTOs.Account.RoleDto, Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-27 13:28:03.249 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi) in 73.5873ms
+2025-04-27 13:28:03.250 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 13:28:03.251 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - 200 null application/json; charset=utf-8 81.6384ms
+2025-04-27 13:29:27.394 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7277/api/admin/Account/AddRoleToUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - null 0
+2025-04-27 13:29:27.397 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.AddRoleToUser (OnionApi)'
+2025-04-27 13:29:27.400 +04:00 [INF] Route matched with {action = "AddRoleToUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddRoleToUser(System.String, System.String) on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:29:27.423 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 13:29:27.430 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__roleId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @__roleId_0
+2025-04-27 13:29:27.434 +04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Repository.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-04-27 13:29:27.437 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-04-27 13:29:27.437 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.AddRoleToUser (OnionApi) in 36.4444ms
+2025-04-27 13:29:27.438 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.AddRoleToUser (OnionApi)'
+2025-04-27 13:29:27.439 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7277/api/admin/Account/AddRoleToUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - 200 0 null 45.069ms
+2025-04-27 13:29:33.890 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - null null
+2025-04-27 13:29:33.891 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 13:29:33.892 +04:00 [INF] Route matched with {action = "GetRolesWithUsers", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRolesWithUsers() on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:29:33.895 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+2025-04-27 13:29:33.898 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:29:33.901 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:29:33.903 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:29:33.904 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:29:33.906 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:29:33.907 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:29:33.909 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Service.DTOs.Account.RoleDto, Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-27 13:29:33.909 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi) in 16.6213ms
+2025-04-27 13:29:33.910 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 13:29:33.911 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - 200 null application/json; charset=utf-8 20.9919ms
+2025-04-27 13:30:12.321 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 13:30:12.397 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 13:30:12.398 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 13:30:12.420 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 13:30:12.421 +04:00 [INF] Hosting environment: Development
+2025-04-27 13:30:12.421 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 13:30:12.763 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:30:12.849 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 85.9002ms
+2025-04-27 13:30:12.857 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:30:12.857 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:30:12.861 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 3.9551ms
+2025-04-27 13:30:12.873 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.6315ms
+2025-04-27 13:30:12.950 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:30:12.961 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.3831ms
+2025-04-27 13:30:14.311 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:30:14.316 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 5.0131ms
+2025-04-27 13:30:14.325 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:30:14.325 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:30:14.328 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 2.8042ms
+2025-04-27 13:30:14.332 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.3272ms
+2025-04-27 13:30:14.361 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:30:14.371 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.9107ms
+2025-04-27 13:30:26.194 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7277/api/admin/Account/AddRoleToUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=e4573a1e-7ce5-4a55-93df-a8b7225b1111 - null 0
+2025-04-27 13:30:26.200 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.AddRoleToUser (OnionApi)'
+2025-04-27 13:30:26.212 +04:00 [INF] Route matched with {action = "AddRoleToUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddRoleToUser(System.String, System.String) on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:30:26.933 +04:00 [INF] Executed DbCommand (27ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 13:30:27.005 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__roleId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @__roleId_0
+2025-04-27 13:30:27.011 +04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Repository.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-04-27 13:30:27.015 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.AddRoleToUser (OnionApi) in 799.5507ms
+2025-04-27 13:30:27.016 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.AddRoleToUser (OnionApi)'
+2025-04-27 13:30:27.018 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.IsInRoleAsync(TUser user, String normalizedRoleName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.AddToRoleAsync(TUser user, String role)
+   at Service.Services.AccountService.AddRole(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\Service\Services\AccountService.cs:line 105
+   at OnionApi.Controllers.Admin.AccountController.AddRoleToUser(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi\Controllers\Admin\AccountController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-27 13:30:27.033 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7277/api/admin/Account/AddRoleToUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=e4573a1e-7ce5-4a55-93df-a8b7225b1111 - 409 null application/json; charset=utf-8 838.5571ms
+2025-04-27 13:31:27.777 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7277/api/admin/Account/AddRoleToUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=e4573a1e-7ce5-4a55-93df-a8b7225b1111 - null 0
+2025-04-27 13:31:27.781 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.AddRoleToUser (OnionApi)'
+2025-04-27 13:31:27.782 +04:00 [INF] Route matched with {action = "AddRoleToUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddRoleToUser(System.String, System.String) on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:31:27.817 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 13:31:27.819 +04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Repository.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-04-27 13:31:27.820 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__roleId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @__roleId_0
+2025-04-27 13:31:27.821 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.AddRoleToUser (OnionApi) in 37.4969ms
+2025-04-27 13:31:27.822 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.AddRoleToUser (OnionApi)'
+2025-04-27 13:31:27.823 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.IsInRoleAsync(TUser user, String normalizedRoleName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.AddToRoleAsync(TUser user, String role)
+   at Service.Services.AccountService.AddRole(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\Service\Services\AccountService.cs:line 105
+   at OnionApi.Controllers.Admin.AccountController.AddRoleToUser(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi\Controllers\Admin\AccountController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-27 13:31:27.826 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7277/api/admin/Account/AddRoleToUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=e4573a1e-7ce5-4a55-93df-a8b7225b1111 - 409 null application/json; charset=utf-8 49.2375ms
+2025-04-27 13:32:30.928 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 13:32:31.002 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 13:32:31.003 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 13:32:31.027 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 13:32:31.028 +04:00 [INF] Hosting environment: Development
+2025-04-27 13:32:31.029 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 13:32:31.264 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:32:31.351 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 87.7946ms
+2025-04-27 13:32:31.361 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:32:31.361 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:32:31.365 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 4.0705ms
+2025-04-27 13:32:31.376 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.5858ms
+2025-04-27 13:32:31.425 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:32:31.439 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.5935ms
+2025-04-27 13:32:42.256 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7277/api/admin/Account/AddRoleToUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=e4573a1e-7ce5-4a55-93df-a8b7225b1111 - null 0
+2025-04-27 13:32:42.263 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.AddRoleToUser (OnionApi)'
+2025-04-27 13:32:42.275 +04:00 [INF] Route matched with {action = "AddRoleToUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddRoleToUser(System.String, System.String) on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:32:42.971 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 13:32:43.043 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__roleId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @__roleId_0
+2025-04-27 13:32:43.060 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:32:43.065 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:32:43.070 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.AddRoleToUser (OnionApi) in 791.6494ms
+2025-04-27 13:32:43.071 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.AddRoleToUser (OnionApi)'
+2025-04-27 13:32:43.073 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Role E4573A1E-7CE5-4A55-93DF-A8B7225B1111 does not exist.
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.AddToRoleAsync(TUser user, String normalizedRoleName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.AddToRoleAsync(TUser user, String role)
+   at Service.Services.AccountService.AddRole(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\Service\Services\AccountService.cs:line 107
+   at OnionApi.Controllers.Admin.AccountController.AddRoleToUser(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi\Controllers\Admin\AccountController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-27 13:32:43.088 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7277/api/admin/Account/AddRoleToUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=e4573a1e-7ce5-4a55-93df-a8b7225b1111 - 409 null application/json; charset=utf-8 831.8348ms
+2025-04-27 13:33:58.012 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 13:33:58.091 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 13:33:58.092 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 13:33:58.115 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 13:33:58.116 +04:00 [INF] Hosting environment: Development
+2025-04-27 13:33:58.116 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 13:33:58.537 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:33:58.617 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 81.1464ms
+2025-04-27 13:33:58.667 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:33:58.667 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:33:58.670 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 3.0936ms
+2025-04-27 13:33:58.684 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.248ms
+2025-04-27 13:33:58.708 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:33:58.722 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.0958ms
+2025-04-27 13:34:07.977 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7277/api/admin/Account/AddRoleToUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=e4573a1e-7ce5-4a55-93df-a8b7225b1111 - null 0
+2025-04-27 13:34:07.984 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.AddRoleToUser (OnionApi)'
+2025-04-27 13:34:07.995 +04:00 [INF] Route matched with {action = "AddRoleToUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddRoleToUser(System.String, System.String) on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:34:08.727 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 13:34:08.797 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__roleId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @__roleId_0
+2025-04-27 13:34:08.813 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:34:08.821 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1
+2025-04-27 13:34:08.826 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:34:08.846 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-04-27 13:34:08.914 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450), @p17='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p18='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTimeOffset), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [FullName] = @p6, [LockoutEnabled] = @p7, [LockoutEnd] = @p8, [NormalizedEmail] = @p9, [NormalizedUserName] = @p10, [PasswordHash] = @p11, [PhoneNumber] = @p12, [PhoneNumberConfirmed] = @p13, [SecurityStamp] = @p14, [TwoFactorEnabled] = @p15, [UserName] = @p16
+OUTPUT 1
+WHERE [Id] = @p17 AND [ConcurrencyStamp] = @p18;
+2025-04-27 13:34:08.929 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-04-27 13:34:08.931 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.AddRoleToUser (OnionApi) in 933.1602ms
+2025-04-27 13:34:08.932 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.AddRoleToUser (OnionApi)'
+2025-04-27 13:34:08.937 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7277/api/admin/Account/AddRoleToUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=e4573a1e-7ce5-4a55-93df-a8b7225b1111 - 200 0 null 959.9635ms
+2025-04-27 13:34:13.637 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - null null
+2025-04-27 13:34:13.643 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 13:34:13.646 +04:00 [INF] Route matched with {action = "GetRolesWithUsers", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRolesWithUsers() on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:34:13.697 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+2025-04-27 13:34:13.705 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:34:13.722 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:34:13.727 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:34:13.729 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:34:13.731 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:34:13.733 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:34:13.737 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Service.DTOs.Account.RoleDto, Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-27 13:34:13.742 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi) in 93.9353ms
+2025-04-27 13:34:13.743 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 13:34:13.744 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - 200 null application/json; charset=utf-8 106.7291ms
+2025-04-27 13:37:43.680 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 13:37:43.755 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 13:37:43.756 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 13:37:43.778 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 13:37:43.779 +04:00 [INF] Hosting environment: Development
+2025-04-27 13:37:43.780 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 13:37:44.226 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:37:44.308 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 82.4302ms
+2025-04-27 13:37:44.313 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:37:44.313 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:37:44.318 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 4.3472ms
+2025-04-27 13:37:44.329 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.0475ms
+2025-04-27 13:37:44.411 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:37:44.423 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.5248ms
+2025-04-27 13:39:10.341 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 13:39:10.428 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 13:39:10.429 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 13:39:10.452 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 13:39:10.453 +04:00 [INF] Hosting environment: Development
+2025-04-27 13:39:10.453 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 13:39:10.816 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:39:10.896 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 80.6528ms
+2025-04-27 13:39:10.903 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:39:10.903 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:39:10.907 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 4.5499ms
+2025-04-27 13:39:10.918 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.8639ms
+2025-04-27 13:39:10.973 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:39:10.987 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.0781ms
+2025-04-27 13:39:23.895 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - null null
+2025-04-27 13:39:23.903 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:39:23.915 +04:00 [INF] Route matched with {action = "RemoveRoleFromUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveRoleFromUser(System.String, System.String) on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:39:24.612 +04:00 [INF] Executed DbCommand (27ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 13:39:24.695 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__roleId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @__roleId_0
+2025-04-27 13:39:24.699 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi) in 781.2987ms
+2025-04-27 13:39:24.700 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:39:24.703 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: No Role Found
+   at Service.Services.AccountService.RemoveRole(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\Service\Services\AccountService.cs:line 119
+   at OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi\Controllers\Admin\AccountController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-27 13:39:24.717 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - 500 null application/json; charset=utf-8 821.7698ms
+2025-04-27 13:39:42.754 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 13:39:42.827 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 13:39:42.828 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 13:39:42.851 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 13:39:42.852 +04:00 [INF] Hosting environment: Development
+2025-04-27 13:39:42.852 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 13:39:43.099 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:39:43.179 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 80.9177ms
+2025-04-27 13:39:43.188 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:39:43.188 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:39:43.192 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 3.9286ms
+2025-04-27 13:39:43.203 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.0532ms
+2025-04-27 13:39:43.223 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:39:43.237 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.225ms
+2025-04-27 13:39:57.313 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - null null
+2025-04-27 13:39:57.320 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:39:57.332 +04:00 [INF] Route matched with {action = "RemoveRoleFromUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveRoleFromUser(System.String, System.String) on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:39:58.022 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 13:39:58.092 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__roleId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @__roleId_0
+2025-04-27 13:39:58.097 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi) in 762.5066ms
+2025-04-27 13:39:58.098 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:39:58.100 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: No Role Found
+   at Service.Services.AccountService.RemoveRole(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\Service\Services\AccountService.cs:line 119
+   at OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi\Controllers\Admin\AccountController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-27 13:39:58.114 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - 500 null application/json; charset=utf-8 800.8506ms
+2025-04-27 13:41:27.687 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - null null
+2025-04-27 13:41:27.691 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 13:41:27.694 +04:00 [INF] Route matched with {action = "GetRolesWithUsers", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRolesWithUsers() on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:41:27.732 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+2025-04-27 13:41:27.749 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:41:27.765 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:41:27.769 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:41:27.772 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:41:27.773 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:41:27.775 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:41:27.779 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Service.DTOs.Account.RoleDto, Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-27 13:41:27.783 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi) in 87.782ms
+2025-04-27 13:41:27.784 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 13:41:27.785 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - 200 null application/json; charset=utf-8 97.4964ms
+2025-04-27 13:41:39.996 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - null null
+2025-04-27 13:41:39.997 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:41:39.998 +04:00 [INF] Route matched with {action = "RemoveRoleFromUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveRoleFromUser(System.String, System.String) on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:41:40.014 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 13:41:40.017 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__roleId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @__roleId_0
+2025-04-27 13:41:40.018 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi) in 18.908ms
+2025-04-27 13:41:40.019 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:41:40.020 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: No Role Found
+   at Service.Services.AccountService.RemoveRole(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\Service\Services\AccountService.cs:line 119
+   at OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi\Controllers\Admin\AccountController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-27 13:41:40.022 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - 500 null application/json; charset=utf-8 26.7892ms
+2025-04-27 13:41:53.743 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - null null
+2025-04-27 13:41:53.744 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:41:53.745 +04:00 [INF] Route matched with {action = "RemoveRoleFromUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveRoleFromUser(System.String, System.String) on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:41:53.748 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 13:41:53.751 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__roleId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @__roleId_0
+2025-04-27 13:41:53.752 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi) in 5.9669ms
+2025-04-27 13:41:53.752 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:41:53.753 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: No Role Found
+   at Service.Services.AccountService.RemoveRole(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\Service\Services\AccountService.cs:line 119
+   at OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi\Controllers\Admin\AccountController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-27 13:41:53.755 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - 500 null application/json; charset=utf-8 12.7506ms
+2025-04-27 13:43:47.398 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 13:43:47.472 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 13:43:47.472 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 13:43:47.494 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 13:43:47.495 +04:00 [INF] Hosting environment: Development
+2025-04-27 13:43:47.495 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 13:43:47.864 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:43:47.942 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 78.9965ms
+2025-04-27 13:43:47.950 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:43:47.950 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:43:47.955 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 4.1912ms
+2025-04-27 13:43:47.965 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.6117ms
+2025-04-27 13:43:48.038 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:43:48.048 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.9484ms
+2025-04-27 13:44:02.531 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - null null
+2025-04-27 13:44:02.538 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:44:02.551 +04:00 [INF] Route matched with {action = "RemoveRoleFromUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveRoleFromUser(System.String, System.String) on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:44:03.232 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 13:44:03.302 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__roleId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @__roleId_0
+2025-04-27 13:44:03.307 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi) in 753.4772ms
+2025-04-27 13:44:03.308 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:44:03.310 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: No Role Found
+   at Service.Services.AccountService.RemoveRole(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\Service\Services\AccountService.cs:line 119
+   at OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi\Controllers\Admin\AccountController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-27 13:44:03.324 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - 500 null application/json; charset=utf-8 792.9632ms
+2025-04-27 13:44:25.567 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 13:44:25.639 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 13:44:25.640 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 13:44:25.663 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 13:44:25.664 +04:00 [INF] Hosting environment: Development
+2025-04-27 13:44:25.664 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 13:44:26.023 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:44:26.105 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 83.1434ms
+2025-04-27 13:44:26.113 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:44:26.113 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:44:26.116 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 3.0062ms
+2025-04-27 13:44:26.130 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.6303ms
+2025-04-27 13:44:26.203 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:44:26.214 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.5781ms
+2025-04-27 13:44:28.123 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:44:28.129 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 5.591ms
+2025-04-27 13:44:28.140 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:44:28.140 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:44:28.142 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 2.0487ms
+2025-04-27 13:44:28.149 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.2058ms
+2025-04-27 13:44:28.176 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:44:28.186 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.7606ms
+2025-04-27 13:44:38.920 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - null null
+2025-04-27 13:44:38.925 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:44:38.938 +04:00 [INF] Route matched with {action = "RemoveRoleFromUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveRoleFromUser(System.String, System.String) on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:44:39.614 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 13:44:39.683 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__roleId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @__roleId_0
+2025-04-27 13:44:39.689 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi) in 748.3503ms
+2025-04-27 13:44:39.690 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:44:39.692 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Service.Services.AccountService.RemoveRole(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\Service\Services\AccountService.cs:line 118
+   at OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi\Controllers\Admin\AccountController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-27 13:44:39.705 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - 500 null application/json; charset=utf-8 784.384ms
+2025-04-27 13:44:59.189 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 13:44:59.261 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 13:44:59.262 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 13:44:59.285 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 13:44:59.286 +04:00 [INF] Hosting environment: Development
+2025-04-27 13:44:59.286 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 13:44:59.489 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:44:59.569 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 80.5111ms
+2025-04-27 13:44:59.580 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:44:59.580 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:44:59.584 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 3.3405ms
+2025-04-27 13:44:59.596 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.0216ms
+2025-04-27 13:44:59.627 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:44:59.637 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.6427ms
+2025-04-27 13:48:14.620 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 13:48:14.701 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 13:48:14.702 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 13:48:14.725 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 13:48:14.725 +04:00 [INF] Hosting environment: Development
+2025-04-27 13:48:14.726 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 13:48:15.197 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:48:15.279 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 82.4691ms
+2025-04-27 13:48:15.288 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:48:15.288 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:48:15.292 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 4.4379ms
+2025-04-27 13:48:15.304 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.7852ms
+2025-04-27 13:48:15.335 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:48:15.347 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.991ms
+2025-04-27 13:48:17.512 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:48:17.517 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 4.9093ms
+2025-04-27 13:48:17.528 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:48:17.528 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:48:17.530 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 2.0144ms
+2025-04-27 13:48:17.536 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.6821ms
+2025-04-27 13:48:17.581 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:48:17.592 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.7231ms
+2025-04-27 13:48:26.697 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - null null
+2025-04-27 13:48:26.702 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:48:26.713 +04:00 [INF] Route matched with {action = "RemoveRoleFromUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveRoleFromUser(System.String, System.String) on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:48:27.389 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 13:48:27.458 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__roleId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @__roleId_0
+2025-04-27 13:48:27.462 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi) in 746.4094ms
+2025-04-27 13:48:27.463 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:48:27.465 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: No Role Found
+   at Service.Services.AccountService.RemoveRole(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\Service\Services\AccountService.cs:line 119
+   at OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi\Controllers\Admin\AccountController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-27 13:48:27.478 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - 500 null application/json; charset=utf-8 780.7967ms
+2025-04-27 13:49:56.429 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 13:49:56.501 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 13:49:56.502 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 13:49:56.524 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 13:49:56.524 +04:00 [INF] Hosting environment: Development
+2025-04-27 13:49:56.525 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 13:49:56.876 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:49:56.963 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 86.9254ms
+2025-04-27 13:49:56.968 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:49:56.968 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:49:56.972 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 3.3125ms
+2025-04-27 13:49:56.984 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.1846ms
+2025-04-27 13:49:57.006 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:49:57.022 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.5103ms
+2025-04-27 13:50:05.887 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - null null
+2025-04-27 13:50:05.894 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:50:05.906 +04:00 [INF] Route matched with {action = "RemoveRoleFromUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveRoleFromUser(System.String, System.String) on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:50:06.596 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 13:50:06.666 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__roleId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @__roleId_0
+2025-04-27 13:50:06.671 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi) in 762.3116ms
+2025-04-27 13:50:06.672 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:50:06.674 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: No Role Found
+   at Service.Services.AccountService.RemoveRole(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\Service\Services\AccountService.cs:line 118
+   at OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi\Controllers\Admin\AccountController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-27 13:50:06.687 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=a8b7225b1111 - 500 null application/json; charset=utf-8 800.005ms
+2025-04-27 13:51:02.709 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=e4573a1e-7ce5-4a55-93df-a8b7225b1111 - null null
+2025-04-27 13:51:02.712 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:51:02.714 +04:00 [INF] Route matched with {action = "RemoveRoleFromUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveRoleFromUser(System.String, System.String) on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:51:02.752 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 13:51:02.755 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__roleId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @__roleId_0
+2025-04-27 13:51:02.780 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-27 13:51:02.790 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:51:02.798 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1
+2025-04-27 13:51:02.808 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:51:02.822 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-04-27 13:51:02.887 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450), @p17='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p18='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTimeOffset), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [AspNetUserRoles]
+OUTPUT 1
+WHERE [RoleId] = @p0 AND [UserId] = @p1;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [FullName] = @p6, [LockoutEnabled] = @p7, [LockoutEnd] = @p8, [NormalizedEmail] = @p9, [NormalizedUserName] = @p10, [PasswordHash] = @p11, [PhoneNumber] = @p12, [PhoneNumberConfirmed] = @p13, [SecurityStamp] = @p14, [TwoFactorEnabled] = @p15, [UserName] = @p16
+OUTPUT 1
+WHERE [Id] = @p17 AND [ConcurrencyStamp] = @p18;
+2025-04-27 13:51:02.902 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-04-27 13:51:02.903 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi) in 187.5686ms
+2025-04-27 13:51:02.903 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:51:02.904 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=e4573a1e-7ce5-4a55-93df-a8b7225b1111 - 200 0 null 195.0396ms
+2025-04-27 13:51:09.108 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - null null
+2025-04-27 13:51:09.110 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 13:51:09.114 +04:00 [INF] Route matched with {action = "GetRolesWithUsers", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRolesWithUsers() on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:51:09.132 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+2025-04-27 13:51:09.137 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:51:09.145 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:51:09.147 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:51:09.150 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:51:09.152 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-04-27 13:51:09.153 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-27 13:51:09.157 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Service.DTOs.Account.RoleDto, Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-27 13:51:09.161 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi) in 45.8211ms
+2025-04-27 13:51:09.162 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.GetRolesWithUsers (OnionApi)'
+2025-04-27 13:51:09.163 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - 200 null application/json; charset=utf-8 54.4134ms
+2025-04-27 13:53:12.392 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=2eade3df-f338-4553-9754-236da9737b02 - null null
+2025-04-27 13:53:12.394 +04:00 [INF] Executing endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:53:12.395 +04:00 [INF] Route matched with {action = "RemoveRoleFromUser", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveRoleFromUser(System.String, System.String) on controller OnionApi.Controllers.Admin.AccountController (OnionApi).
+2025-04-27 13:53:12.400 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-27 13:53:12.404 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__roleId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @__roleId_0
+2025-04-27 13:53:12.407 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-27 13:53:12.408 +04:00 [INF] Executed action OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi) in 11.6707ms
+2025-04-27 13:53:12.409 +04:00 [INF] Executed endpoint 'OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser (OnionApi)'
+2025-04-27 13:53:12.410 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: A user must have at least one role
+   at Service.Services.AccountService.RemoveRole(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\Service\Services\AccountService.cs:line 121
+   at OnionApi.Controllers.Admin.AccountController.RemoveRoleFromUser(String UserId, String RoleId) in C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi\Controllers\Admin\AccountController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-27 13:53:12.412 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:7277/api/admin/Account/RemoveRoleFromUser?UserId=9bd52b84-cfb2-4630-bcf7-e1caaa0bc4f5&RoleId=2eade3df-f338-4553-9754-236da9737b02 - 500 null application/json; charset=utf-8 20.1642ms
+2025-04-27 13:56:14.598 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 13:56:14.673 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 13:56:14.674 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 13:56:14.696 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 13:56:14.697 +04:00 [INF] Hosting environment: Development
+2025-04-27 13:56:14.697 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 13:56:15.060 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:56:15.146 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 86.1366ms
+2025-04-27 13:56:15.155 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:56:15.155 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:56:15.160 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 4.613ms
+2025-04-27 13:56:15.170 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.0944ms
+2025-04-27 13:56:15.239 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:56:15.253 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.3304ms
+2025-04-27 13:56:17.858 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:56:17.864 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 6.2885ms
+2025-04-27 13:56:17.875 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:56:17.875 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:56:17.878 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 3.0868ms
+2025-04-27 13:56:17.882 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.1176ms
+2025-04-27 13:56:17.909 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:56:17.920 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.9196ms
+2025-04-27 13:56:22.150 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - null null
+2025-04-27 13:56:22.156 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|SuperAdmin)
+2025-04-27 13:56:22.158 +04:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-04-27 13:56:22.159 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/api/admin/Account/GetRolesWithUsers - 302 0 null 8.9278ms
+2025-04-27 13:56:22.161 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/Account/Login?ReturnUrl=%2Fapi%2Fadmin%2FAccount%2FGetRolesWithUsers - null null
+2025-04-27 13:56:22.163 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/Account/Login?ReturnUrl=%2Fapi%2Fadmin%2FAccount%2FGetRolesWithUsers - 404 0 null 1.4186ms
+2025-04-27 13:56:22.165 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7277/Account/Login, Response status code: 404
+2025-04-27 13:58:44.302 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-27 13:58:44.376 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-27 13:58:44.377 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-27 13:58:44.399 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-27 13:58:44.400 +04:00 [INF] Hosting environment: Development
+2025-04-27 13:58:44.400 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Repositories\Onionarc2\OnionApi
+2025-04-27 13:58:44.837 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-27 13:58:44.915 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 78.611ms
+2025-04-27 13:58:44.922 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-27 13:58:44.922 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-27 13:58:44.925 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 3.0223ms
+2025-04-27 13:58:44.938 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.616ms
+2025-04-27 13:58:45.048 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-27 13:58:45.064 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.5924ms

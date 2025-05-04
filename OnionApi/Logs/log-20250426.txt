@@ -1,0 +1,53 @@
+2025-04-26 22:19:44.460 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-26 22:19:44.481 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-26 22:19:44.504 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-26 22:19:44.504 +04:00 [INF] Hosting environment: Development
+2025-04-26 22:19:44.505 +04:00 [INF] Content root path: C:\Users\Oruj\Desktop\RamilCourseApp\OnionApi
+2025-04-26 22:19:44.727 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger - null null
+2025-04-26 22:19:44.801 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger - 301 0 null 74.7835ms
+2025-04-26 22:19:44.804 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-26 22:19:44.840 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 36.067ms
+2025-04-26 22:19:44.847 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/swagger-ui-bundle.js - null null
+2025-04-26 22:19:44.847 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/swagger-ui.css - null null
+2025-04-26 22:19:44.847 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-26 22:19:44.847 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 22:19:44.856 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 8.7657ms
+2025-04-26 22:19:44.861 +04:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-26 22:19:44.861 +04:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-26 22:19:44.861 +04:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-26 22:19:44.863 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 15.9112ms
+2025-04-26 22:19:44.864 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/swagger-ui.css - 200 152034 text/css 16.6501ms
+2025-04-26 22:19:44.865 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 17.6376ms
+2025-04-26 22:19:44.884 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-26 22:19:44.923 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.2511ms
+2025-04-26 22:19:44.989 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-26 22:19:45.000 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.5774ms
+2025-04-26 22:19:45.004 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/favicon-32x32.png - null null
+2025-04-26 22:19:45.006 +04:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-26 22:19:45.007 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/favicon-32x32.png - 200 628 image/png 3.3007ms
+2025-04-26 22:26:34.515 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-26 22:26:34.535 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-26 22:26:34.557 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-26 22:26:34.558 +04:00 [INF] Hosting environment: Development
+2025-04-26 22:26:34.559 +04:00 [INF] Content root path: C:\Users\Oruj\Desktop\RamilCourseApp\OnionApi
+2025-04-26 22:26:34.714 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-26 22:26:34.790 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 76.7465ms
+2025-04-26 22:26:34.800 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-26 22:26:34.800 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 22:26:34.805 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 4.7219ms
+2025-04-26 22:26:34.816 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.3874ms
+2025-04-26 22:26:34.932 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-26 22:26:34.942 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.027ms
+2025-04-26 22:27:15.112 +04:00 [INF] Now listening on: https://localhost:7277
+2025-04-26 22:27:15.131 +04:00 [INF] Now listening on: http://localhost:5057
+2025-04-26 22:27:15.153 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-26 22:27:15.154 +04:00 [INF] Hosting environment: Development
+2025-04-26 22:27:15.154 +04:00 [INF] Content root path: C:\Users\Oruj\Desktop\RamilCourseApp\OnionApi
+2025-04-26 22:27:15.299 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - null null
+2025-04-26 22:27:15.374 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - 200 null text/html;charset=utf-8 75.0428ms
+2025-04-26 22:27:15.381 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - null null
+2025-04-26 22:27:15.381 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 22:27:15.386 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 5.1788ms
+2025-04-26 22:27:15.397 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.2879ms
+2025-04-26 22:27:15.441 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - null null
+2025-04-26 22:27:15.451 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.7738ms

@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "iR8tzBqGWRxpibds7aSvNKatQtBei6wPGHz324eYGwY=",
+  "Source": "OnionApi",
+  "BasePath": "_content/OnionApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "OnionApi\\wwwroot",
+      "Source": "OnionApi",
+      "ContentRoot": "C:\\Users\\Oruj\\Documents\\Repositories\\Onionarc2\\OnionApi\\wwwroot\\",
+      "BasePath": "_content/OnionApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
